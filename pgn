@@ -1,0 +1,34 @@
+Prometheus and Grafana are two popular open-source tools commonly used in the field of monitoring and observability to collect, store, visualize, and alert on metrics and time-series data from various systems and applications. They are often used together to create comprehensive monitoring and visualization solutions.
+
+Prometheus:
+Prometheus is an open-source monitoring and alerting system initially developed at SoundCloud. It is designed to scrape and store time-series data from various sources, such as application metrics, system performance statistics, and more. Here are some key features and concepts associated with Prometheus:
+
+Data Collection: Prometheus uses a pull-based model to collect data. It periodically scrapes data from targets (e.g., applications, servers) by querying their endpoints using HTTP or other protocols.
+
+Data Model: Prometheus stores data as time-series metrics, where each metric is identified by a unique combination of metric name and a set of key-value pairs called labels. This makes it easy to query and filter data.
+
+Query Language: Prometheus comes with a powerful query language called PromQL, which allows you to retrieve and manipulate time-series data for analysis and alerting.
+
+Alerting: Prometheus has a built-in alerting mechanism that allows you to define custom alert rules based on the collected metrics. When a rule is triggered, it can send notifications to various channels, such as email or a webhook.
+
+Data Retention: Prometheus has a local storage engine with configurable retention policies. You can specify how long to retain data based on your needs.
+
+Grafana:
+Grafana is an open-source visualization and dashboarding platform that works seamlessly with various data sources, including Prometheus. It allows you to create dynamic, interactive, and visually appealing dashboards to monitor and analyze your data. Here are some key features and concepts associated with Grafana:
+
+Dashboard Creation: Grafana provides a user-friendly interface for creating dashboards. You can add panels, charts, and tables to visualize data from different sources.
+
+Data Sources: Grafana supports a wide range of data sources, including Prometheus, InfluxDB, Elasticsearch, and more. You can connect Grafana to your data source and use it to create dashboards.
+
+Alerting: Grafana has its alerting system, allowing you to define alert rules based on data from connected data sources. When an alert condition is met, Grafana can trigger notifications through various channels.
+
+Plugins and Integrations: Grafana has a rich ecosystem of plugins and integrations that extend its functionality. You can add custom panels, data sources, and authentication methods to tailor Grafana to your specific needs.
+
+Templating: Grafana supports template variables, allowing you to create dynamic dashboards that adapt to different contexts and use cases.
+
+When used together, Prometheus and Grafana form a powerful combination for monitoring and observability. Prometheus collects and stores metrics, while Grafana provides a flexible and user-friendly interface for visualizing and alerting on that data. This combination is widely used in DevOps and SRE (Site Reliability Engineering) practices to gain insights into the performance and health of applications and infrastructure.
+
+
+
+
+
