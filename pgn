@@ -79,3 +79,10 @@ yum install grafana -y
 systemctl start grafana-server.service
 systemctl status grafana-server.service
 
+
+
+
+#Monitoring using Prometheus Dashboard Visualization using Grafana
+
+After installation, login Grafana dashboard with portnumber 3000 --> Give user name and password as "admin" --> click on dashboard --> create new dashboard. 
+
